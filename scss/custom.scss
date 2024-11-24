@@ -1,1 +1,20 @@
+
+
+.hero{
+    padding: 10%;
+    padding-right: 50%;
+    height: 600px;
+    background-image: url(../images/image-parlour.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f0f0f0;
+    
+}
+
+// .hero::before{
+//     linear-gradient: (to right, #005555, transparent);
+//     z-index: 1;
+// }
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
