@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="css/custom.css"/>
+    <link rel='icon' href='images/black-label-ottawa-logo.webp' type='image/x-icon' sizes="16x16"/>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg container-fluid" style="padding-left: 9%; padding-right: 9%;" data-bs-theme="dark">
@@ -41,8 +42,9 @@
       </nav>
     <main>
 
-        <div>
-            <h1>Frequently Asked Questions</h1>
+        <div style="padding-left: 20%; padding-right: 20%;">
+         <h1 class="centered-h1" style="padding-top: 25px; padding-bottom: 40px;">Frequently Asked Questions</h1>
+          <section class="faq" style="display: flexbox;">
             <div class="btn-group">
                 <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Does your shop do piercings?
@@ -98,12 +100,60 @@
                 <ul class="dropdown-menu">
                   <li><p>Your artist will provide you with detailed aftercare instructions during your appointment. You will also receive a detailed aftercare sheet to take home with you. Your tattoo will go through a few different stages of the healing process. If you have any questions or concerns during your healing, please contact your tattoo artist directly.</p></li>
                 </ul>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <p>What is the minimum age to be tattooed at your shop?</p>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><p>All clients must be at least 18 years of age. We do not tattoo anyone under the age of 18, even with a parent or guardian. Please be prepared to provide a photo ID at the time of your appointment.</p></li>
+                </ul>
             </div>    
+            <div class="btn-group">
+                <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <p>What style of tattoos does your shop do?</p>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><p>Our tattoo artists in Ottawa work in a variety of styles, including realistic black and grey tattoos, neo-traditional tattoos, illustrative tattoos, traditional tattoos, fine-line tattoos, script tattoos, small tattoos, dark realism tattoos and colour tattoos. Click <a href="#"> here </a> to find the artist that best suits you.</p></li>
+                </ul>
+            </div>
+          </section>
         </div>    
+        <section style="margin-left: 30%; margin-right:30%; margin-bottom:100px; margin-top: 40px;">
+            <h2 class="centered-h1">Can't find what you're looking for?</h2>
+            <p class="centered-h1" style="padding-left: 20%; padding-right: 20%;">Please feel free to leave us a message through our contact form, or send us an email.</p>
+            <a href="/contact.html" class="btn btn-primary" style="margin-left: 30%;">Contact Form</a>
+            <a href="#" class="btn btn-outline-primary">Send an E-mail</a> 
+        </section>
 
-        <small>Black Label Ottawa, 2024 </small>
-    </div>
-</footer>
+        <footer class="container justify-content-left">
+            <div id="footer-content">
+                <div class="row">
+                    <ul class="col-lg-1" style="list-style: none; justify-content: left;">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Book</a></li>
+                    </ul>
+                    <ul class="col-lg-2" style="list-style: none; justify-content: left; margin-bottom: 30px;">
+                        <li><a href="#">Meet the Team</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                    <p class="centered col-lg-4">Follow us on social media @blacklabelottawa</p>
+                    <p class="col-lg-3">220 Terrence Matthews Crescent Ottawa, ON  K2M0E2</p>
+                    
+                </div>    
+                <div class="row">
+                    <p class="col-lg-3"> Need to get in touch? Fill out our <a href="#">Contact Form</a> or contact us at <a href="#">info@blacklabelottawa.com</a> </p>
+                    <p class="centered col-lg-4">Thank you for your trust in our services. We look forward to seeing you soon!</p>
+                    <div class="google-map col-lg-3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2807.103042141018!2d-75.87801782373559!3d45.28613947107161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccdffdd98769e27%3A0x1b7a1a7e3bab9acd!2sBlack%20Label%20Ottawa!5e0!3m2!1sen!2sca!4v1732488018005!5m2!1sen!2sca" width="600px" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+    
+                </div>    
+                <small>Black Label Ottawa, 2024 </small>
+            </div>
+        </footer>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>

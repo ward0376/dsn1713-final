@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="css/custom.css"/>
+    <link rel='icon' href='images/black-label-ottawa-logo.webp' type='image/x-icon' sizes="16x16"/>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg container-fluid" style="padding-left: 9%; padding-right: 9%;" data-bs-theme="dark">
@@ -39,11 +40,93 @@
           </div>   
         </div>
       </nav>
+      <section style="margin-left: 30%; margin-right:30%; margin-bottom:100px; margin-top: 25px;">
+        <h2 class="centered-h1">Contact Us</h2>
+        <p class="centered-h1">Need to get in touch? Check our FAQ page for answers, or contact us through the form below. Tell us which artist you are interested in and attach any images you would like us to have.</p>
+        <a href="/faq.html" class="btn btn-primary" style="margin-left: 45%;">FAQ</a>
+      </section>
+      <form class="row g-3" style="margin-left: 20%; margin-right: 20%; margin-bottom: 60px;">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">First Name</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Last Name</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Email</label>
+          <input type="text" class="form-control" id="inputAddress">
+        </div>
+        <div class="col-8">
+          <label for="inputAddress2" class="form-label">Message Subject</label>
+          <input type="text" class="form-control" id="inputAddress2">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Preferred Artist</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Anthony Charbonneau</option>
+            <option>PJ Eagle</option>
+            <option>Aida Robbins</option>
+            <option>Chris Law</option>
+            <option>Nikki Charbonneau - Owner</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <label for="inputZip" class="form-label">Your Message</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+        </div>
+        <div class="mb-3">
+            <label for="formFile" class="form-label">Attach Photos</label>
+            <input class="form-control" type="file" id="formFile">
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+      <section style="margin-left: 30%; margin-right:30%; margin-bottom:100px">
+        <h2>The 2024 Ottawa Gatineau Tattoo Convention</h2>
+        <h3>January 8th-10th 2024</h3>
+        <p>We're thrilled to announce that Anthony Black and PJ Eagle will be attending the Ottawa Gatineau Tattoo Convention this year. Our artists will be tattooing alongside the talented artists from Relic Tattoo.</p>
+        <p>Stop by the booth to meet these incredible artists from January 8th-10th.</p>
+        <a href="https://ottawatattooexpo.ca/" target="_blank" class="btn btn-primary" role="button">
+            More Information
+        </a>
+      </section>
+
     <main>
 
-        <small>Black Label Ottawa, 2024 </small>
-    </div>
-</footer>
+    <footer class="container justify-content-left">
+            <div id="footer-content">
+                <div class="row">
+                    <ul class="col-lg-1" style="list-style: none; justify-content: left;">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Book</a></li>
+                    </ul>
+                    <ul class="col-lg-2" style="list-style: none; justify-content: left; margin-bottom: 30px;">
+                        <li><a href="#">Meet the Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="/faq.html">FAQ</a></li>
+                    </ul>
+                    <p class="centered col-lg-4">Follow us on social media @blacklabelottawa</p>
+                    <p class="col-lg-3">220 Terrence Matthews Crescent Ottawa, ON  K2M0E2</p>
+                    
+                </div>    
+                <div class="row">
+                    <p class="col-lg-3"> Need to get in touch? Fill out our <a href="#">Contact Form</a> or contact us at <a href="#">info@blacklabelottawa.com</a> </p>
+                    <p class="centered col-lg-4">Thank you for your trust in our services. We look forward to seeing you soon!</p>
+                    <div class="google-map col-lg-3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2807.103042141018!2d-75.87801782373559!3d45.28613947107161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccdffdd98769e27%3A0x1b7a1a7e3bab9acd!2sBlack%20Label%20Ottawa!5e0!3m2!1sen!2sca!4v1732488018005!5m2!1sen!2sca" width="600px" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+    
+                </div>    
+                <small>Black Label Ottawa, 2024 </small>
+            </div>
+    </footer>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
